@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== icon di atas bagian tab-link ===============-->
+    <link rel="shortcut icon" href="assets/img/unnamed.webp" type="image/x-icon">
+
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>NoWatch.com</title>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="" class="nav__logo">
+                NoWatch.
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link"> <!----==active-link untuk menebalkan warna pada objek yang sedang di klik pada navbar==---->
+                            <i class="ri-home-6-line"></i>
+                            <span>Home</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#new" class="nav__link">
+                            <i class="ri-price-tag-3-line"></i>
+                            <span>Catalog</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#collection" class="nav__link">
+                            <i class="ri-compass-line"></i>
+                            <span>Collection</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="halaman-produk/index.html" class="nav__link">
+                            <i class="ri-timer-line"></i>
+                            <span>Products</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <!-----------tombol mode IRENG ------------>
+            <i class="ri-moon-line change-theme" id="theme-button"></i>
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <h1 class="home__title">
+                        New Watches <br> Collection
+                    </h1>
+
+                    <p class="home__description">
+                        The new collection of watches <br> from
+                        the best brands since the<br> early 80s.
+                    </p>
+
+                    <a href="#new" class="button__link">
+                        Explore <i class="ri-arrow-right-fill"></i>
+                    </a>
+                </div>
+
+                <div class="home__images">
+                    <img src="assets/img/homeee1.jpg" alt="home image">
+                    <img src="assets/img/homeee2.jpg" alt="home image">
+                </div>
+            </div>
+        </section>
+
+        <!--==================== NEW ====================-->
+        <section class="new section" id="new">
+            <h2 class="section__title">
+                New Items
+            </h2>
+
+            <div class="new__container container grid">
+                <article class="new__card">
+                    <img src="assets/img/leather.png" alt="new image" class="new__img">
+
+                    <a href="catalog.html" class="new__link">
+                        <div class="new__data">
+                            <h2 class="new__title">
+                                Leather strap
+                            </h2>
+                            <span>
+                                Casio collection
+                            </span>
+                        </div>
+
+                        <i class="ri-arrow-right-fill"></i>
+                    </a>
+                </article>
+
+                <article class="new__card">
+                    <img src="assets/img/image (10).avif" alt="new image" class="new__img">
+
+                    <a href="catalog.html" class="new__link">
+                        <div class="new__data">
+                            <h2 class="new__title">
+                                G-SHOCK
+                            </h2>
+                            <span>
+                                Casio collection
+                            </span>
+                        </div>
+
+                        <i class="ri-arrow-right-fill"></i>
+                    </a>
+                </article>
+
+                <article class="new__card">
+                    <img src="assets/img/edf.avif" alt="new image" class="new__img">
+
+                    <a href="catalog.html" class="new__link">
+                        <div class="new__data">
+                            <h2 class="new__title">
+                                Analog and Digital
+                            </h2>
+                            <span>
+                                Casio collection
+                            </span>
+                        </div>
+
+                        <i class="ri-arrow-right-fill"></i>
+                    </a>
+                </article>
+
+                
+
+            </div>
+        </section>
+
+        <!--==================== COLLECTION ====================-->
+        <section class="collection section" id="collection">
+            <div class="collection__container container">
+                <div class="collection__explore">
+                    <div class="collection__data-men">
+                        <h2 class="collection__title">
+                            Men <br>
+                            Collection
+                        </h2>
+                        <a href="men.html" class="button__link">
+                            view more products <i class="ri-arrow-right-fill"></i>
+                        </a>
+                    </div>
+
+                    <img src="assets/img/collectionn1.jpg" alt="collection image">
+                </div>
+
+                <div class="collection__explore">
+                    <img src="assets/img/collectionn2.jpg" alt="collection image">
+                    <div class="collection__data-women">
+                        <h2 class="collection__title">
+                            Women <br> Collection
+                        </h2>
+                        <a href="women.html" class="button__link">
+                            view more products <i class="ri-arrow-right-fill"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!--==================== PRODUCTS ====================-->
+        <section class="products section" id="products">
+            <h2 class="section__title">
+                Best Prices
+            </h2>
+
+            <div class="products__container container swiper">
+                <div class="swiper-wrapper">
+                    <acticle class="products__card swiper-slide">
+                        <a href="casio1.html">
+                            <img src="assets/img/image (1).avif" alt="product image" class="products__img">
+                        </a>
+
+                        <h2 class="products__title">
+                            Casio General W-217HM-7BVDF
+                        </h2>
+                        <span class="products__price">
+                            Rp259.000
+                        </span>
+                    </acticle>
+
+                    <acticle class="products__card swiper-slide">
+                        <a href="casio1.html">
+                            <img src="assets/img/image (2).avif" alt="product image" class="products__img">
+                        </a>
+
+                        <h2 class="products__title">
+                            Casio GENERAL A158WA-1DF
+                        </h2>
+                        <span class="products__price">
+                            Rp469.000
+                        </span>
+                    </acticle>
+
+                    <acticle class="products__card swiper-slide">
+                        <a href="casio1.html">
+                            <img src="assets/img/aq.avif" alt="product image" class="products__img">
+                        </a>
+                        
+                        <h2 class="products__title">
+                            Casio AQ-230GG-9A
+                        </h2>
+                        <span class="products__price">
+                            Rp449.000
+                        </span>
+                    </acticle> 
+
+                    <acticle class="products__card swiper-slide">
+                        <a href="casio1.html">
+                            <img src="assets/img/image (3).avif" alt="product image" class="products__img">
+                        </a>
+                        
+                        <h2 class="products__title">
+                            Casio General CA-53W 
+                        </h2>
+                        <span class="products__price">
+                            Rp318.000
+                        </span>
+                    </acticle>
+
+                    <acticle class="products__card swiper-slide">
+                        <a href="casio1.html">
+                            <img src="assets/img/image (4).avif" alt="product image" class="products__img">
+                        </a>
+                        
+                        <h2 class="products__title">
+                            Casio GENERAL F91W-1
+                        </h2>
+                        <span class="products__price">
+                            Rp201.000
+                        </span>
+                    </acticle>
+
+                    <acticle class="products__card swiper-slide">
+                        <a href="casio1.html">
+                            <img src="assets/img/image9.avif" alt="product image" class="products__img">
+                        </a>
+                        
+
+                        <h2 class="products__title">
+                            Casio GENERAL A178WA-1A
+                        </h2>
+                        <span class="products__price">
+                            Rp449.000
+                        </span>
+                    </acticle>
+
+                    
+                    <acticle class="products__card swiper-slide">
+                        <a href="casio1.html">
+                            <img src="assets/img/image (6).avif" alt="product image" class="products__img">
+                        </a>
+                        
+                        <h2 class="products__title">
+                            Casio GENERAL AE-1200WHD-1AV
+                        </h2>
+                        <span class="products__price">
+                            Rp337.000
+                        </span>
+                    </acticle> 
+
+                    
+                    
+    
+                </div>
+                <div class="swiper-button-next">
+                    <i class="ri-arrow-right-s-line"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="ri-arrow-left-s-line"></i>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== PRODUCTS ====================-->
+
+        <section class="linksss section">
+            <div class="links__container container grid">
+                <a href="halaman-produk/index.html" class="button__product">
+                    See more products <i class="ri-arrow-down-s-line"></i>
+                </a>
+            </div>
+            
+        </section>
+
+        <!--==================== BRANDS ====================-->
+        <section class="brand section">
+            <h2 class="section__title">
+                Brands Product
+            </h2>
+
+            <div class="brand__container container grid">
+                <img src="assets/img/logoo1.jpg" alt="logo image" class="brand__img">
+                <img src="assets/img/logoo2.jpg" alt="logo image" class="brand__img">
+                <img src="assets/img/logoo3.jpg" alt="logo image" class="brand__img">
+                <img src="assets/img/logoo4.jpg" alt="logo image" class="brand__img">
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <div>
+                <a href="#" class="footer__logo">
+                    NoWatch.
+                </a>
+
+                <p class="footer__description">
+                    I would like to let you know to <br> 
+                    the best watches from legendary <br>
+                    brands.
+                </p>
+            </div>
+
+            <div class="footer__content">
+                <div>
+                    <h3 class="footer__title">
+                        Linked
+                    </h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#home" class="footer__link">Shop</a>
+                        </li>
+                        <li>
+                            <a href="catalog.html" class="footer__link">Category</a>
+                        </li>
+                        <li>
+                            <a href="https://wa.me/085895421884" class="footer__link">Contact me</a>
+                        </li>
+                    </ul>
+                </div>
+
+
+                <div>
+                    <h3 class="footer__title">
+                        Follow me
+                    </h3>
+
+                    <ul class="footer__social">
+                        <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                            <i class="ri-facebook-fill"></i>
+                        </a>
+                        <a href="https://www.instagram.com/1_darren.armani/?hl=id" target="_blank" class="footer__social-link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="footer__social-link">
+                            <i class="ri-twitter-fill"></i>
+                        </a>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="footer__info container">
+            <span class="footer__copy">
+                &#169; DarrenArmani. All rigths reserved
+            </span>
+
+            <a href="https://www.copyright.gov/" class="footer__privacy">
+                Terms & Conditions
+            </a>
+        </div>
+    </footer>
+
+    <!--========== SCROLL UP ==========--> 
+    <a href="#home" class="scrollup" id="scroll-up"> <!---menampilkan tombol scroll ke atas -->
+        <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script> <!--untuk buat gambar slide slide-->
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
